@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0px solid #2bcfff;
+    background-color: #f3f3f3;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 0px solid #2bcfff;
+    background-color: #f3f3f3;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+#logo { float: left; }
+li a.active {
+    color: white;
+    background-color: #2bcfff;
+}
+.image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+}
+
+div.background {
+  background: url(hetlBMt.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+p{
+font-family: 'Josefin Sans', sans-serif;
+}
+li{
+font-family: 'Comfortaa', cursive;
+}
+h1{
+font-family: 'Comfortaa', cursive;
+}
+.accountnav {
+float: right;
+}
